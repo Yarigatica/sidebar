@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #f7ede2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.sidebar {
+  width: 20%;
+  height: 95%;
+  background-color: #f5cac3;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 15px 7px 23px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  border-radius: 50%;
+  background-color: #ec9192;
+  justify-content: center;
+  align-items: center;
+}
+
+.letter {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.name {
+  font-size: 25px;
+  color: #b1a7a6;
+}
+
+.position {
+  font-size: 18px;
+  color: #b1a7a6;
+}
+.items {
+  margin-top: 60px;
+}
+
+.item {
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 4px 0;
+}
+
+.input {
+  background: none;
+  border: none;
+}
+
+.input::placeholder {
+  color: black;
+}
+
+.bg-main {
+  background-color: #f7ede2;
+}
+
+.item:hover {
+  cursor: pointer;
+  background-color: #ec9192;
+}
+
+.item:hover > span {
+  color: #ec9192;
+}
